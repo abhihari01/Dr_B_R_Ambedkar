@@ -1,0 +1,44 @@
+@font-face{
+    font-family: custom-font;
+    src:url(Font/sketch-book/Sketch\ Book.ttf)
+    }
+h1{
+    font-family: custom-font;
+}
+body{
+    background-image: url(sample6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+div{
+    text-align: justify;
+}   
+img{
+    text-align: center;
+}
+.image{
+    
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+ }
+
+ .aquote{
+    font-style: italic;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(175, 62, 9);
+    background-color: rgba(115, 146, 187, 0.562);
+    border: 3px dashed green;
+    padding: 10px;
+    float:right;
+   box-shadow:10px 10px 3px #5a525288;
+
+ }
+ .quotehead{
+    color: blueviolet;
+    text-shadow:10px 10px 3px rgba(59, 101, 121, 0.438);
+ }
+ 
